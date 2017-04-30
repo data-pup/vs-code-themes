@@ -1,0 +1,22 @@
+{
+    "name": "angiex",
+    "displayName": "Angie Xtravaganza",
+    "description": "VS Code Theme Extension",
+    "version": "0.0.1",
+    "publisher": "",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Angie X.",
+                "uiTheme": "vs-dark",
+                "path": "./themes/angiex.tmTheme"
+            }
+        ]
+    }
+}
