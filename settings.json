@@ -1,0 +1,99 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Workbench Theming [NOTE: Syntax subject to change, early feature.]
+
+    "workbench.colorCustomizations": {
+
+        "activityBarBadge.background": "#FC4174",
+        "activityBar.background": "#0D0413",
+
+        "editorGroupHeader.noTabsBackground": "#040008",
+        "editorGroupHeader.tabsBackground": "#040008",
+
+        "dropdown.background": "#040008",
+
+        "editor.lineNumbers": "#FC4174",
+        "editor.findMatchBackground": "#5A4A94",
+        "editor.findMatchHighlightBackground": "#666666",
+
+        "panel.background": "#040008",
+
+        "sideBar.background": "#390C61",
+        "sideBarSectionHeader.background": "#5A4A94",
+
+        "statusBar.background": "#5A4A94",
+        "statusBar.foreground": "#FFFFFF",
+
+        "tab.activeForeground": "#DDDDDD",
+        "tab.activeBackground": "#390C61",
+        "tab.inactiveForeground": "#888888",
+        "tab.inactiveBackground": "#0D0413",
+        "tab.border": "#5A4A94",
+
+        "titleBar.activeBackground": "#5A4A94",
+        "titleBar.activeForeground": "#FFFFFF"
+    },
+
+    // Integrated Terminal Settings
+
+    // The path of the shell that the terminal uses on OS X.
+    "terminal.integrated.shell.osx": "/usr/local/bin/powershell",
+
+    // Editor
+
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80, 120],
+
+    // Controls after how many characters the editor will wrap to the next line. Setting this to 0 turns on viewport width wrapping (word wrapping). Setting this to -1 forces the editor to never wrap.
+    "editor.wordWrapColumn": 120,
+
+    // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+    "editor.wordWrap": true,
+
+    // Controls the indentation of wrapped lines. Can be one of 'none', 'same' or 'indent'.
+    "editor.wrappingIndent": "indent",
+
+    // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+    "editor.renderWhitespace": "boundary",
+
+    // Controls whether the editor should render control characters
+    "editor.renderControlCharacters": true,
+
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": true,
+
+    // Controls whether the editor should render the current line highlight
+    "editor.renderLineHighlight": true,
+
+    // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
+    "workbench.editor.enablePreview": false,
+
+    // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": false,
+
+    // Relative line numbering, because I'm saucy like that.
+    "editor.lineNumbers": "relative",
+
+    // Minimap
+
+    // Controls if the minimap is shown
+    "editor.minimap.enabled": true,
+
+    // Render the actual characters on a line (as opposed to color blocks)
+    "editor.minimap.renderCharacters": true,
+
+    // Vim Emulation Settings
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["l", "k", "j"],
+            "after": ["<esc>"]
+        }
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Angie X."
+}
