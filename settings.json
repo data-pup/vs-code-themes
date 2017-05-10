@@ -37,7 +37,8 @@
     // Integrated Terminal Settings
 
     // The path of the shell that the terminal uses on OS X.
-    "terminal.integrated.shell.osx": "/usr/local/bin/powershell",
+    // "terminal.integrated.shell.osx": "/usr/local/bin/powershell",
+    "terminal.integrated.shell.osx": "/bin/zsh",
 
     // Editor
 
@@ -45,10 +46,10 @@
     "editor.rulers": [80, 120],
 
     // Controls after how many characters the editor will wrap to the next line. Setting this to 0 turns on viewport width wrapping (word wrapping). Setting this to -1 forces the editor to never wrap.
-    "editor.wordWrapColumn": 120,
+    "editor.wordWrapColumn": 80,
 
     // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
-    "editor.wordWrap": true,
+    "editor.wordWrap": "bounded",
 
     // Controls the indentation of wrapped lines. Can be one of 'none', 'same' or 'indent'.
     "editor.wrappingIndent": "indent",
@@ -63,7 +64,7 @@
     "editor.renderIndentGuides": true,
 
     // Controls whether the editor should render the current line highlight
-    "editor.renderLineHighlight": true,
+    "editor.renderLineHighlight": "gutter",
 
     // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
     "workbench.editor.enablePreview": false,
@@ -95,5 +96,8 @@
         }
     ],
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Angie X."
+    "workbench.colorTheme": "Angie X.",
+    "[html]": {
+        
+    }
 }
