@@ -5,7 +5,7 @@
 ### changes to the repository and push to the remote.
 ### ----------------------------------------------------------------------- ###
 
-VS_CONFIG="/Users/kvn/Library/Application Support/Code/User/settings.json"
+VS_CONFIG="~/Library/Application Support/Code/User/settings.json"
 
 if ! [ -f "$VS_CONFIG" ] # Check if the file exists.
 then
