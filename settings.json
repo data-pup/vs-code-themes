@@ -96,8 +96,6 @@
         }
     ],
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Angie X.",
-    "[html]": {
-        
-    }
+    "workbench.colorTheme": "Angie X."
 }
+

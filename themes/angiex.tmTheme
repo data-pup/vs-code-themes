@@ -18,13 +18,13 @@
 				<key>foreground</key>
 				<string>#FF81F4</string>
 				<key>invisibles</key>
-				<string>#FFF7A9</string>
+				<string>#661242</string>
 				<key>lineHighlight</key>
 				<string>#0D0413</string>
 				<key>selection</key>
 				<string>#270245</string>
 				<key>guide</key>
-				<string>#661242</string>
+				<string>#FFF7A9</string>
 			</dict>
 		</dict>
 		<dict>
