@@ -49,7 +49,7 @@
     "editor.wordWrapColumn": 80,
 
     // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "wordWrapColumn",
 
     // Controls the indentation of wrapped lines. Can be one of 'none', 'same' or 'indent'.
     "editor.wrappingIndent": "indent",
@@ -96,6 +96,7 @@
         }
     ],
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Angie X."
+    "workbench.colorTheme": "Angie X.",
+    "window.zoomLevel": -1
 }
 
