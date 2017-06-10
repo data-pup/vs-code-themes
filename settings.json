@@ -7,16 +7,23 @@
         "activityBarBadge.background": "#FC4174",
         "activityBar.background": "#0D0413",
 
-        "editorGroupHeader.noTabsBackground": "#040008",
-        "editorGroupHeader.tabsBackground": "#040008",
-
         "dropdown.background": "#040008",
 
-        "editor.lineNumbers": "#FC4174",
         "editor.findMatchBackground": "#5A4A94",
         "editor.findMatchHighlightBackground": "#666666",
+        "editorGroupHeader.noTabsBackground": "#040008",
+        "editorGroupHeader.tabsBackground": "#040008",
+        "editor.lineNumbers": "#FC4174",
+
+        "editorSuggestWidget.background": "#040008",
+        "editorSuggestWidget.foreground": "#DDDDDD",
+        "editorSuggestWidget.border": "#5A4A94",
+        "editorSuggestWidget.selectedBackground": "#390C61",
+        "editorSuggestWidget.highlightForeground": "#FFFFFF",
 
         "panel.background": "#040008",
+
+        "scrollbarSlider.background": "#390C61",
 
         "sideBar.background": "#390C61",
         "sideBarSectionHeader.background": "#5A4A94",
@@ -33,6 +40,10 @@
         "titleBar.activeBackground": "#5A4A94",
         "titleBar.activeForeground": "#FFFFFF"
     },
+
+    // Select the icon and color themes.
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Angie X.",
 
     // Integrated Terminal Settings
 
@@ -95,8 +106,7 @@
             "after": ["<esc>"]
         }
     ],
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Angie X.",
+
+    // Default window zoon level.
     "window.zoomLevel": -1
 }
-
